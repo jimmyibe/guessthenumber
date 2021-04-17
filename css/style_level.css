@@ -124,13 +124,14 @@ body {
     border-radius: 2rem;
     text-decoration: none;
     text-transform: none;
+    color: #222;
+    background-color: #fff;
 }
 
 .btn:link,
 .btn:visited,
 .btn:active,
 .btn:focus {
-    color: #222;
     text-transform: none;
     text-decoration: none;
     border: none;
