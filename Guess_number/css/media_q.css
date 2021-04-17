@@ -1,0 +1,65 @@
+@media only screen and (min-width: 300px) and (max-width: 420px) and (orientation: portrait) {
+    html {
+        font-size: 45%;
+    }
+
+    .main {
+        height: auto;
+        justify-content: center;
+    }
+
+    .exit {
+        position: absolute;
+        top: 10px;
+        left: 100px;
+    }
+
+    .again {
+        position: absolute;
+        top: 10px;
+        left: 200px;
+    }
+
+    .number {
+        bottom: -10%;
+    }
+
+    .left {
+        position: absolute;
+        top: 80px;
+        left: 23%;
+    }
+
+    .right {
+        position: absolute;
+        top: 285px;
+        right: 19%;
+    }
+
+    .right p {
+        font-size: 3.5rem;
+        margin-bottom: 0;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 421px) and (max-width: 800px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1200px) and (orientation: portrait) {
+    html {
+        font-size: 60%;
+    }
+    .header {
+        justify-content: center;
+    }
+
+    .header h1,
+    .header p {
+        width: max-content;
+        margin: 0 auto;
+    }
+}
