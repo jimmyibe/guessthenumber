@@ -1,2 +1,2 @@
-# Guessthenumber
+# guessthenumber
 Web App - Guess the number
